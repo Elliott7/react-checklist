@@ -1,0 +1,25 @@
+.boxSize {
+    min-width: 50vw;
+    margin: 20px;
+    background-color: #FACE7F;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.margin {
+    margin: 10px 0 10px 5%;
+}
+
+.inputs {
+    width: 90%;
+}
+
+.container {
+    margin: 10px 20px;
+    display: flex;
+    align-items: start;
+    border: 1px ghostwhite dotted;
+    border-radius: 20px;
+    color: #911F27;
+}
