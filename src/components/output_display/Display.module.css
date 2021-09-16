@@ -28,6 +28,9 @@
     display: flex;
     align-items: start;
     color: #911F27;
+}
+
+.item {
     margin: 10px 20px;
     border: 1px ghostwhite dotted;
     border-radius: 20px;

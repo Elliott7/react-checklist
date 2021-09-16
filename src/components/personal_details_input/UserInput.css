@@ -2,11 +2,11 @@
     min-width: 50vw;
     min-height: 200px;
     margin: 20px;
-    /*background-color: #FCF0C8;*/
     background-color: #FACE7F;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
 .margin {
@@ -22,24 +22,4 @@
     flex-direction: column;
     align-items: start;
     color: #911F27;
-}
-
-.addButton {
-    align-self: start;
-    background-color: #630A10;
-    border: none;
-    color: #FCF0C8;
-    font-size: 15px;
-    padding: 10px;
-    text-align: center;
-    transition-duration: 0.05s;
-}
-
-.addButton:hover{
-    transform: scale(1.05);
-    cursor: grab;
-}
-
-.addButton:active{
-    background-color: #911F27;
 }
