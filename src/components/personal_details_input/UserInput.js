@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ErrorModal from "../modal/ErrorModal";
 import Button from "../UI/Button";
 import styles from '../output_display/Display.module.css'
+import Wrapper from "../Helpers/Wrapper";
 
 function UserInput(props) {
     const [username, setUsername] = useState('')
@@ -47,7 +48,7 @@ function UserInput(props) {
     }
 
     return (
-        <div>
+        <React.Fragment>
             {error && <ErrorModal title={error.title} message={error.message} closeButton={resetError}/>}
             <form className={`${styles.boxSize} ${styles.minHeight}`} onSubmit={submitHandler}>
                 <div className={`${styles.container} ${styles.flexCol}`}>
@@ -67,7 +68,7 @@ function UserInput(props) {
                 </div>
                 <Button type="submit">Add User</Button>
             </form>
-        </div>
+        </React.Fragment>
     )
 }
 
